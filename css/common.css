@@ -48,13 +48,13 @@ a {
 
 :root {
 	font-family: 'Roboto', sans-serif;
-	--text-color: #c5c5c6;
-	--text-color-logo: #af4537;
-	--text-color-hover: #ffffff;
-	--text-color-сaptions: #b6a592;
-	--background-color-header: #302f35;
-	--background-color-main: #393941;
-	--background-color-title: #34ad34;
+	--text-color: #ffffff;
+	--text-color-logo: #f8f4f4;
+	--text-color-hover: #f8f7f6;
+	--text-color-сaptions: #f6a03f;
+	--background-color-header: #000000;
+	--background-color-main: #000000;
+	--background-color-title: #676a67;
 }
 
 body,
