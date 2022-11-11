@@ -1,0 +1,44 @@
+.header,
+.footer {
+	background-color: var(--background-color-header);
+}
+
+.header {
+	padding: 10px 0;
+}
+
+nav {
+	text-align: center;
+}
+
+.nav__logo {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.nav__logo-text,
+.burger-icon {
+	display: block;
+	color: var(--text-color-logo);
+}
+
+.nav__logo-text:focus,
+.burger-icon:focus,
+.nav__logo-text:hover,
+.burger-icon:hover {
+	color: var(--background-color-title);
+}
+
+.burger-icon {
+	cursor: pointer;
+}
+
+.burger-checkbox,
+.nav__list_active {
+	display: none;
+}
+
+.burger-checkbox:checked~.nav__list_active {
+	display: block;
+}
